@@ -1,0 +1,147 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <title>My simple form </title>
+    <!-- <style>
+        h1{
+            background-color: blanchedalmond;
+            text-decoration: underline;
+            text-transform: capitalize;
+            text-align: center;
+        }
+        body {
+            background-color: navajowhite;
+
+        }
+        form {
+            text-align: center;
+
+        }
+
+    </style>
+-->
+<link type=" text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div> 
+    <!-- inline css-->
+    <H1 > Karol's Simple Form</H1>
+    <form action="">
+    <label for="First Name">First Name:</label>
+    <input type="text" placeholder="First Name" name="First NAME"><br><br>
+    <label for="Last Name">Last Name:</label>
+    <input type="text" placeholder="Last Name" name="First NAME"><br><br>
+    <label for="Email">Email:</label>
+    <input type="email" placeholder="Email address" name="Email"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" placeholder="5 characters min" name="Password"
+    minlength="5"><br><br>
+    <label for="gender">Gender:</label>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="female">
+    <label for="non-binary">Non-binary</label>
+    <input type="radio" name="gender" value="non-binary"><br><br>
+
+    <label for="gender">Civil Status:</label>
+    <label for="Single">Single</label>
+    <input type="radio" name="Status" value="Single">
+    <label for="Married">Married</label>
+    <input type="radio" name="Status" value="Married">
+    <label for="Complicated">Complicated</label>
+    <input type="radio" name="Status" value="Complicated"><br><br>
+    
+    <label for="pet">Pet:</label>
+    <label for="dog">Dog</label>
+    <input type="checkbox" name="Pet" value="dog">
+    <label for="cat">Cat</label>
+    <input type="checkbox" name="Pet" value="cat">
+    <label for="goat">Goat</label>
+    <input type="checkbox" name="Pet" value="goat"> <br><br>
+    <label for="birthday">Date of Birth:</label>
+    <input type="date" name="birthday"><br><br>
+    <label for="phone">Phone Number:</label>
+    <input type="number" name="phone"placeholder="+234"><br><br>
+    <label for="car">Car:</label>
+    <select name="car" >
+ <option value="">Select Brand:</option>
+ <option value="Toyota">Toyota</option>
+ <option value="Prado">Prado</option>
+ <option value="Honda">Honda</option>
+ <option value="Bently">Bently</option>
+ <option value="Tesla"Tesla</option>
+    </select><br><br>
+<label for="feedback">Feedback:</label>
+<textarea name="Feedback" id="" cols="30" rows="20"></textarea><br><br>
+ <button type="submit" >Sign up</button>
+ <input type="reset" value="Clear" >
+
+</form>
+    </div>
+
+  </body>
+</html>
+
+<!--
+    CSS stands for Cascading Style Sheets. It is a stylesheet language used to control the
+     presentation and layout of web pages written in HTML (Hypertext Markup Language). 
+     CSS enables web developers to define how the content on a webpage should appear on the screen, 
+     in print, or on other types of media.
+
+The primary purpose of CSS is to separate the content of a web page from its presentation,
+ allowing developers to create consistent and visually appealing designs across multiple pages 
+ or an entire website. By using CSS, you can define various styles for HTML elements such as fonts,
+  colors, margins, padding, layout, and more.
+
+  Properties define the visual appearance and behavior of the selected elements. 
+  Examples of properties include color, font-size, margin, padding, background-color,
+   display, and many more.
+
+   CSS is a powerful tool that allows web developers to create beautiful and responsive web designs.
+    It is an essential component of  modern web development and is widely supported
+     by all major web browsers.
+
+     inline:it is added directly to a line of html 
+     elementusing an attribute(style).
+
+     the BASIC SYNTAX OF CSS is the property-value pair
+     (property):value
+     color: green
+
+     if the property name contains 2 words, they are separated
+     with an hyphen.
+
+
+
+     internal: the CSS is added in one placein the HTML. it is always the
+     last thing in the head section of the html structure.In internal css, you identify elements
+     on the html page as selectors andstyle them individually or together.
+
+     selector{
+        all the styling of the element
+     }
+
+     external: the css is seperate file and it is linked to the HTML
+     using the link tag. 
+
+
+     Order of priority in CSS styling
+     if  you style the same element with the inline css,
+     internal css and external css, the inline will always
+     take highest priority.
+
+     color picker
+     font color
+     background color
+     font size
+     align
+     center
+     font family
+     border- style, width, height, color
+     margin
+     padding
+
+
+    background image
+-->
