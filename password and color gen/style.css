@@ -9,7 +9,52 @@ body {
     /* padding: 30px; */
     color: black;
     overflow-x: hidden;
+    background: linear-gradient(to right, #49A3BF, #401093);
     
+}
+
+.password-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.password-container h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing: none;
+    font-weight: 600;
+
+}
+
+.password-container a{
+    border: 1px solid #f3f3f3;
+    padding: 10px;
+    font-size: 1.3rem;
+    border-radius: 5px;;
+    background-color: rgba(243, 243, 243, 0.4) ;
+
+}
+
+.gradient{
+    border: 1px solid aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    gap: 15px;
+}
+.each-gradient{
+    display: flex;
+    flex-direction: column;
+}
+
+.each-gradient a{
+    border: 1px solid #f3f3f3;
+    border-radius: 5px;
+    padding: 5px 30px;
+    background: rgba(243, 243, 243, 0.4);
 }
 
 .gen-pad {
@@ -29,8 +74,6 @@ nav {
     text-align: center;
     text-transform: uppercase;
     background-color: aqua;
-    position: fixed;
-    width: 100%;
     color: black;
 }
 
@@ -82,27 +125,30 @@ nav .btn {
 .btn {
     /* border: 1px solid white; */
     padding: 10px 15px;
-    border-radius: 20px;
-    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua;
     color: black;
     transition: all ease-in-out .3s;
+    font-weight: 400;
+    font-size: 1.8rem;
 }
 
 .btn:hover {
-    background: transparent;
+    background: aquamarine;
     border: 1px solid;
     color: black;
 }
 
 header {
     display: flex;
-    gap: 50px;
-    height: 100vh;
+    gap: 20px;
+    height: 90vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background: linear-gradient(to right, rgba(43, 136, 207, 0.6), rgba(19, 72, 170, 0.6));
+    /*background: linear-gradient(to right, rgba(43, 136, 207, 0.6), rgba(19, 72, 170, 0.6));*/
   
     color: #f3f3f3;
 }
