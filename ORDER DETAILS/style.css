@@ -10,14 +10,22 @@ body {
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    color:rgb(143, 31, 195);
+    background-color: yellow;
+    font-family: Arial, Helvetica, sans-serif; 
+     
+
   }
   
   .centered-container {
     /* Optional: Add some padding and background color to make it visible */
     padding: 20px;
     background-color: #f0f0f0;
+    border-radius: 9px;
+    
   }
-      
+
+
 
   
  

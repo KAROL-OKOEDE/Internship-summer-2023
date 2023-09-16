@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    background-color: #000;
+    /* position: relative; */
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.position-example {
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #f3f3f3;
+    padding: 15px;
+    font-size: 1.5rem;
+    height: 200px;
+    width: 50vw;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    /* position: absolute; */
+    /* left: 30%;
+    top: 30%; */
+    position: relative;
+}
+
+.position-example ul {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.position-example ul li {
+    list-style: none;
+}
+
+.position-example span {
+    background: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    padding: 5px;
+    color: #f3f3f3;
+    border-radius: 1px solid green;
+    position: absolute;
+    right: -2%;  
+    top: -5%;
+}
+
+.position-example iconify-icon {
+    font-size: 2rem;
+    color: green;
+    position: absolute;
+    right: 2%;
+    top: 5%;
+    cursor: pointer;
+}
+.second {
+    color: white;
+    font-size: 2rem;
+    height: 50vh;
+    padding-top: 350px;
+}
+
+/* 
+#EEEEEE
+#E53552
+*/

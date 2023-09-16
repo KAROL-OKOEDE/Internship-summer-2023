@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #182C39;
+}
+
+/* Select Classes with the dot(.) */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.organize {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#organize h1 {
+    color: #E59E6E;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.organize p {
+    border: none;
+    padding: 40px 180px;
+    font-size: 30px;
+    background-color: #F6EDE8;
+}
+
+.organize form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border: 3px solid #C9CDD1;
+    font-size: 25px;
+    outline: none;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+input::-webkit-input-placeholder {
+    color: #DDE0E2; 
+}
+
+.form-row div input {
+    width: 350px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .next input {
+    padding: 25px 20px;
+    border-radius: 10px;
+} */
+
+input[type="submit"] {
+    background-color: #E59E6E;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #Fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* #FFDA39 */

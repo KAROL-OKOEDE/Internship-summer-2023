@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>A Simple Form</title>
+        <!-- Internal CSS -->
+        <style>
+            /* body {
+                background-color: aquamarine;
+            }
+
+            h1 {
+                text-decoration: line-through;
+                color: green;
+            }
+
+            label {
+                text-transform: uppercase;
+                color: blueviolet;
+            } */
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!-- Inline CSS
+        The "Style" attribute is used for adding css inline
+        -->
+        <!-- <h1 style="color: blue; text-transform: uppercase;">a simple form</h1> -->
+        <p>Lorem, ipsum dolor.</p>
+        <div>
+            <h1 id="header-text">a simple form</h1>
+            <form action="">
+                <label for="firstname">First Name:</label>
+                <input type="text" placeholder="First Name" name="firstname"><br><br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" placeholder="SurName" name="lastname"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" placeholder="doe@xyz.com" name="email"><br><br>
+                <label for="password" class="green">Password:</label>
+                <input type="password" placeholder="5 characters min" name="password" minlength="5"><br><br>
+                <label for="gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" value="female">
+                <label for="others">Others</label>
+                <input type="radio" name="gender" value="others"><br><br>
+                <label for="status">Civil Status:</label>
+                <label for="single">Single</label>
+                <input type="radio" name="status" value="single">
+                <label for="married">Married</label>
+                <input type="radio" name="status" value="married">
+                <label for="complicated">Complicated</label>
+                <input type="radio" name="status" value="complicated"><br><br>
+                <label for="pets">Pets:</label>
+                <label for="dog">Dog</label>
+                <input type="checkbox" name="pets" value="dog">
+                <label for="cat">Cat</label>
+                <input type="checkbox" name="pets" value="cat">
+                <label for="goat">goat</label>
+                <input type="checkbox" name="pets" value="goat"><br><br>
+                <label for="birthday">Date of Birth</label>
+                <input type="date" name="birthday"><br><br>
+                <label for="phonenumber">Phone Number</label>
+                <input type="number" name="" placeholder="+234"><br><br>
+                <label for="car">Car:</label>
+                <select name="car">
+                    <option value="">Select Brand</option>
+                    <option value="toyota">Toyota</option>
+                    <option value="benz">Benz</option>
+                    <option value="bentley">Bentley</option>
+                    <option value="dodge">Dodge</option>
+                </select><br><br>
+                <label for="feedback" class="green">Feedback:</label><br>
+                <textarea name="feedback" id="" cols="30" rows="10"></textarea><br><br>
+                <button type="submit">Sign Up</button>
+                <input type="reset" value="Clear">
+            </form>
+        </div>
+        <h1>gjknlo</h1>
+    </body>
+</html>
+
+<!-- 
+    http://127.0.0.1:5501/form.html?firstname=John+&lastname=Okorie+&email=ayoolaoluwabukola7%40gmail.com&password=65r768t87&gender=male&status=single&pets=dog&pets=cat&pets=goat&birthday=2011-06-26&car=bentley&feedback=redgxsdtryghvgcdxtrxchb+fgxrdsrfc+v+fxxfgv+gcgcg+cfgxtryjmv+bvcghvjk
+ -->
