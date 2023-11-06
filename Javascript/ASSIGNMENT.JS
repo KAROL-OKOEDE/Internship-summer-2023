@@ -75,4 +75,3 @@ alert("Subtraction Result: " + subtractionResult);
 alert("Division Result: " + divisionResult);
 alert("Multiplication Result: " + multiplicationResult);
 
-
